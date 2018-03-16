@@ -1,0 +1,38 @@
+<html><head><style>
+#arrow {opacity: 0; position: absolute; width: auto; height: 25%; vertical-align: center; -webkit-transform: translate(-50%, -100%); }
+</style></head><body>
+<img src="./arrowDown.svg" id="arrow" class="webvfx" data-animate='{ start: 0, end: 0.75, ease: "easeOutBounce",
+	  0% : {opacity:1; left:50%; top:0%;},
+	100% : {opacity:1; left:50%; top:50%;}
+}'>
+<script src="WebVfx.js"></script>
+
+<!--
+		ease  : the easing function to use, which can be "linearTween" (default) or one of the following strings:
+				"easeInQuad"		t^2         acceleration from zero velocity
+                "easeOutQuad"		t^2         deceleration  to  zero velocity
+                "easeInOutQuad"		t^2         acceleration until halfway, then deceleration
+                "easeInCubic"		t^3         acceleration from zero velocity
+                "easeOutCubic"		t^3         deceleration  to  zero velocity
+                "easeInOutCubic"	t^3         acceleration until halfway, then deceleration
+                "easeInQuartic"		t^4         acceleration from zero velocity
+                "easeOutQuartic"	t^4         deceleration  to  zero velocity
+                "easeInOutQuartic"	t^4         acceleration until halfway, then deceleration
+                "easeInQuintic"		t^5         acceleration from zero velocity
+                "easeOutQuintic"	t^5         deceleration  to  zero velocity
+                "easeInOutQuintic"	t^5         acceleration until halfway, then deceleration
+				"easeInSine"		sinusoidal  acceleration from zero velocity
+				"easeOutSine"		sinusoidal  deceleration  to  zero velocity
+                "easeInOutSine"		sinusoidal  acceleration until halfway, then deceleration
+				"easeInExpo"		exponential acceleration from zero velocity
+                "easeOutExpo"		exponential deceleration  to  zero velocity
+                "easeInOutExpo"		exponential acceleration until halfway, then deceleration
+                "easeInCirc"		circular    acceleration from zero velocity
+                "easeOutCirc"		circular    deceleration  to  zero velocity
+                "easeInOutCirc"		circular    acceleration until halfway, then deceleration
+                "easeInBounce"		elastic     bounce, then acceleration from zero velocity
+                "easeOutBounce"		elastic     deceleration  to  zero velocity, then bounce
+                "easeInOutBounce"	elastic     bounce, then acceleration until halfway, then deceleration, then bounce
+				Please be aware that these strings are CASE-SENSITIVE e.g. "easeInBounce", NOT "easeinbounce".
+-->
+</body></html>
